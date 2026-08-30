@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <!-- Congiguración estándar HTML5-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Profesional | Desarrollador Fullstack</title>
-    <!-- CSS Externo-->
     <link rel = "stylesheet" href = "css/style.css">
 </head>
 <body>
 
-    <!-- Encabezado y Navegación alineada a la derecha-->
     <header>
         <nav>
             <ul>
@@ -19,12 +16,12 @@
                 <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
                 <li><a href="#contacto">Contacto</a></li>
+                <li><a href="https://github.com/bemontoya" target="_blank" class="nav-github">GitHub</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <!--Hero / presentación principal-->
         <section id="inicio" class="hero-section">
             <div class="hero-text">
                 <h1>Hola, soy Benjamin Montoya, estudiante y <br>Desarrollador Fullstack de Duoc Uc</h1>
@@ -32,14 +29,12 @@
                 <a href="#contacto" class="btn-primary">Contactar</a>
             </div>
             <div class="hero-avatar">
-                <!-- Imagen Circular -->
-                <img src="img/avatar.svg" alt="Avatar profesional">
+                <img src="img/avatar.png" alt="Avatar profesional">
             </div>
 
 
         </section>
 
-        <!-- Sección de Habilidades -->
         <section id="habilidades" class="grey-section">
             <div class="section-container">
                 <div class="section-header">
@@ -60,6 +55,12 @@
 
                     </article>
 
+                    <article class="card">
+                        <h3>Backend con Java</h3>
+                        <span class="card-meta">Spring Boot | REST | Microservicios</span>
+                        <p>Controladores RESTful y servicios web con documentación Swagger.</p>
+                    </article>
+
                 </div>
             
 
@@ -67,7 +68,6 @@
 
         </section> 
 
-        <!--Sección sobre mi-->
         <section id="sobre-mi" class="content-section">
             <h2>Sobre mi</h2>
             <p>Apasionado por la tecnología y la optimización de código, soy alguien que está dispuesto y 
@@ -80,16 +80,13 @@
 
         </section>
 
-        <!-- Sección de proyectos-->
         <section id="proyectos" class="content-section">
             <h2>Proyectos Destacados</h2>
 
             <div class="works-list">
-                <!--Proyecto 1-->
                 <article class="work-item">
                     <div class="work-img">
-                        <img src="img/backend-codigo.png" alt="Código Java Spring Boot"
-
+                        <img src="img/backend-codigo.png" alt="Código Java Spring Boot">
                     </div>
                     <div class="work-info">
                         <h3>Sistema de Reservas & Gestión (Backend API)</h3>
@@ -99,18 +96,39 @@
 
                         </div>
                         <p>Desarrollo de controladores RESTful y servicios web con documentación Swagger</p>
+                        <a href="https://github.com/bemontoya/SistemaDeReservas/tree/bemontoya" target="_blank" class="work-link">Ver repositorio →</a>
 
                     </div>
                     
 
                 </article>
 
+                <article class="work-item">
+                    <div class="work-img">
+                        <img src="img/Gestion.png" alt="Repositorio del proyecto realizado en asignatura de GitHub">
+
+                    </div>
+                    <div class="work-info">
+                        <h3>Gestion de Empleados (Trabajo en equipo)</h3>
+                        <div class="work-meta">
+                            <span class="badge">2026</span>
+                            <span class="category">Java | SupaBase | Html | Css</span>
+
+                        </div>
+                        <p>Sistema encargado de registrar distintos empleados para una empresa con el fin de llevar un orden de cada uno, tanto de su departamento, cargo y sueldo.</p>
+                        <a href="https://github.com/Gonzalez230/Sistema-Empleados" target="_blank" class="work-link">Ver repositorio →</a>
+
+
+                    </div>
+                </article>
+
+
+
                 
             </div>
 
         </section>
 
-        <!--Sección de Contacto con formulario validado-->
         <section id="contacto" class="grey-section">
             <div class="section-container">
                 <h2>Contacto</h2>
@@ -147,12 +165,12 @@
 
     </main>
 
-    <!--Footer-->
+  
     <footer>
         <p>&copy; 2026 Portafolio Profesional. Todos los derechos reservados.</p>
     </footer>
 
-    <!--Script JS al final para optimizar carga-->
+
     <script src="js/main.js"></script>
     
 </body>
