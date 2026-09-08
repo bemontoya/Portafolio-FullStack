@@ -46,12 +46,12 @@ El formulario de contacto valida en el cliente:
 
 Cada error se muestra en contexto, junto al campo correspondiente.
 
-##Cómo verlo localmente
+## Cómo verlo localmente
 
-1. Clona este repositorio: `https://github.com/bemontoya/Portafolio-FullStack.git`
-2. Abrir `index.html` en tu navegador (o usa la extensión "Live Server" de VS Code).
+1. Clonar este repositorio: `https://github.com/bemontoya/Portafolio-FullStack.git`
+2. Abrir `index.html` en el navegador (Usar extension live server).
 
-##Autor
+## Autor
 
 Benjamin Montoya — Estudiante de Desarrollo Fullstack, Duoc UC
 [GitHub](https://github.com/bemontoya)
