@@ -1,19 +1,19 @@
-#Portafolio Profesional — Benjamin Montoya
+# Portafolio Profesional — Benjamin Montoya
 
 Portafolio personal desarrollado como parte de la Evaluación Parcial 1. El sitio presenta mi identidad profesional como estudiante de desarrollo Fullstack: habilidades, proyectos y una vía de contacto.
 
 
-##Objetivo
+## Objetivo
 
 Mostrar de forma clara y profesional mis habilidades técnicas y proyectos desarrollados, sirviendo como carta de presentación ante posibles empleadores o instituciones de práctica.
 
-##Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - **HTML** semántico (`header`, `nav`, `main`, `section`, `article`, `footer`)
 - **CSS** externo, con Flexbox, Grid y media queries para diseño responsivo
 - **JavaScript** para validación de formularios en tiempo real
 
-##Estructura del proyecto
+## Estructura del proyecto
 
 ```
 /
@@ -27,7 +27,7 @@ Mostrar de forma clara y profesional mis habilidades técnicas y proyectos desar
     └── backend-codigo.png
 ```
 
-##Secciones del sitio
+## Secciones del sitio
 
 | Sección | Descripción |
 |---|---|
@@ -37,7 +37,7 @@ Mostrar de forma clara y profesional mis habilidades técnicas y proyectos desar
 | Proyectos | Proyectos destacados con enlace a repositorio |
 | Contacto | Formulario validado con JavaScript |
 
-##Validaciones del formulario
+## Validaciones del formulario
 
 El formulario de contacto valida en el cliente:
 - Nombre completo obligatorio
